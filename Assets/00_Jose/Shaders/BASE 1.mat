@@ -9,13 +9,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: BASE 1
   m_Shader: {fileID: -6465566751694194690, guid: 67a7ee1b73f8ac44696991e9ac7dfc33, type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3001
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -35,12 +37,20 @@ Material:
     m_Ints: []
     m_Floats:
     - _AgitacionVoronoi: 1
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _CastShadows: 1
+    - _Cull: 0
     - _Distanciawobble: 0.05
+    - _DstBlend: 10
     - _Metallic: 0.4
     - _NormalStrenght: 0.12
-    - _QueueControl: 0
+    - _QueueControl: 1
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _Smoothness: 1.4
+    - _SrcBlend: 5
+    - _Surface: 1
     - _Transparencia: 0.5
     - _Transparenciaglobal: 0
     - _VoronoiScale: 10
@@ -48,6 +58,10 @@ Material:
     - _WobbleSpeed: 0.5
     - _Wobbleamount: 0
     - _Wobblefrecuencia: 2
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 1
     m_Colors:
     - _Basecolor: {r: 0, g: 0.965909, b: 1, a: 1}
     - _ColorVoronoi: {r: 0, g: 0.8301887, b: 0.1508041, a: 1}
