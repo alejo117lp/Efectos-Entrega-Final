@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/00_Jose/Grifo.unity
+    guid: 868b812eca2ba2143aec171137c7590e
+  - enabled: 1
+    path: Assets/00_Tomas/Efecto Rayo.unity
+    guid: 9a950a1c9ecaab24a876b63c13a1e31c
+  - enabled: 1
+    path: Assets/00_Valen/Scenes/GrowingEffect.unity
+    guid: e87d4021c4cb2d242b500c7a1de9f389
   m_configObjects: {}
